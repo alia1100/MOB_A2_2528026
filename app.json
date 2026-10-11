@@ -14,7 +14,10 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "plugins": [
       [
@@ -24,6 +27,11 @@
           "cameraPermission": "Allow AUPortfolio to use the camera to take a profile picture."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dfa97cf3-0a42-4a3b-a0e8-32d5e0dbeb0f"
+      }
+    }
   }
 }
