@@ -52,7 +52,7 @@ The Android package is `rw.ac.ines.ug2528026.auportfolio`.
 - GitHub repository: https://github.com/alia1100/MOB_A2_2528026
 - Release (v1.0.0): https://github.com/alia1100/MOB_A2_2528026/releases/tag/v1.0.0
 - APK: https://github.com/alia1100/MOB_A2_2528026/releases/download/v1.0.0/MOB_A2_2528026.apk
-- Final commit hash: REPLACE_WITH_HASH
+- Final commit hash: f83d7912f41589f5907ac3275766c588c5ee8d20 (application, documents and evidence; this README line was added in the next commit)
 
 ## Repository documents
 
@@ -70,3 +70,4 @@ The app stores only low-risk profile data (headline, biography, primary skill, a
 - Android only. No iOS or web version is provided.
 - Skills, education and projects are fixed in the source code. Only the headline, biography, primary skill, availability and photo can be edited in the app.
 - The app has no online features.
+
