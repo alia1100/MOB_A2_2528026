@@ -1,15 +1,13 @@
 {
   "expo": {
     "name": "AUPortfolio",
-    "slug": "AUPortfolio",
+    "slug": "auportfolio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "rw.ac.ines.ug2528026.auportfolio",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -18,8 +16,14 @@
       },
       "predictiveBackGestureEnabled": false
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow AUPortfolio to access your photos to choose a profile picture.",
+          "cameraPermission": "Allow AUPortfolio to use the camera to take a profile picture."
+        }
+      ]
+    ]
   }
 }
